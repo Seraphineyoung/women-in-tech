@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* img {
+  width: 33.333333%;
+  float: left;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  z-index: 2;
+} */
+#pictures {
+  position: relative;
+}
+
+#pictures img {
+  opacity: 0.9;
+
+
+
+}
+
+.heading_names {
+  z-index: 100;
+  position: relative;
+}
+
+.mycontainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.navbar {
+    background-color: rgba(32, 35, 41, 0.7);
+}
