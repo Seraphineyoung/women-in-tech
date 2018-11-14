@@ -20,3 +20,21 @@ header{
 figure {
   padding-top: 3rem;
 }
+
+.bottomsection {
+  padding: 2rem 2rem;
+  background-color: #d3161d;
+  margin-bottom: 2rem;
+}
+article {
+padding-top: 3rem;
+}
+
+img {
+  opacity: 0.8;
+}
+
+button:hover {
+    background-color: black;
+      color: white;
+}
