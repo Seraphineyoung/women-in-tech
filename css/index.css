@@ -31,14 +31,56 @@ padding-top: 3rem;
 }
 
 img {
-  opacity: 0.8;
+  opacity:
 }
 
 button:hover {
     background-color: black;
       color: white;
+
 }
 
-.mybutton {
+button {
   padding: 0.5rem 0.5rem;
+
+
 }
+
+h1:after {
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    content: url(../img/banner-bottom.svg);
+    width: 120%;
+    z-index: 101;
+
+}
+.grace {
+  -webkit-box-shadow: -40px -42px 0px -25px rgba(211,22,29,1);
+-moz-box-shadow: -40px -42px 0px -25px rgba(211,22,29,1);
+box-shadow: -40px -42px 0px -25px rgba(211,22,29,1);
+}
+
+.kate {
+  -webkit-box-shadow: -40px -42px 0px -25px rgba(120,120,120,1);
+-moz-box-shadow: -40px -42px 0px -25px rgba(120,120,120,1);
+box-shadow: -40px -42px 0px -25px rgba(120,120,120,1);
+}
+
+.ada {
+  -webkit-box-shadow: -40px -42px 0px -25px rgba(51,15,83,1);
+-moz-box-shadow: -40px -42px 0px -25px rgba(51,15,83,1);
+box-shadow: -40px -42px 0px -25px rgba(51,15,83,1);
+}
+/* body:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  opacity: .4;
+  background: #abbaab;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ }
+*/
