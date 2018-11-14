@@ -38,3 +38,7 @@ button:hover {
     background-color: black;
       color: white;
 }
+
+.mybutton {
+  padding: 0.5rem 0.5rem;
+}
