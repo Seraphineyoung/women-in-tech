@@ -11,7 +11,6 @@ body {
   opacity: 0.8;
   left: 0;
   top: 0;
-  z-index: 10;
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -33,7 +32,6 @@ header h1 {
 
 .mycontainer {
   background-color: white;
-  z-index: 100;
   padding: 2rem;
 }
 
@@ -93,16 +91,16 @@ margin-bottom:3rem;
 }
 
 blockquote{
-  padding-top: 9rem;
+  padding-top: 10rem;
 }
 
-.herdeath{
+#her_death{
   background-color: black;
-  padding: 0.5rem;
+  padding: 6rem;
   font-size: 2rem;
   color: white;
-
 }
+
 
 
 }
