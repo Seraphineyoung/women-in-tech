@@ -41,12 +41,12 @@ ul {
   list-style: none;
 }
 
-#short_bio, #Long_bio, #childhood, #education, #her_work, #her_death {
+#short_bio, #Long_bio, #childhood, #education, #her_work, #her_death, #independence,#teenager,#vision{
   -webkit-box-shadow: 5px -5px 4px 7px rgba(211, 22, 29, 1);
   -moz-box-shadow: 5px -5px 4px 7px rgba(211, 22, 29, 1);
   box-shadow: 5px -5px 0px 0px rgba(211, 22, 29, 1);
-  margin-bottom: 3rem;
-  padding: 1rem;
+  margin-bottom: 2.5rem;
+  padding: 0.5rem;
 }
 
 blockquote {
@@ -89,4 +89,20 @@ margin-bottom:3rem;
 .mycontainer {
   margin: none;
   padding: none;
+  height: auto;
+}
+
+blockquote{
+  padding-top: 9rem;
+}
+
+.herdeath{
+  background-color: black;
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: white;
+
+}
+
+
 }
