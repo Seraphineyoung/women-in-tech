@@ -15,17 +15,17 @@ header{
 .heading {
   padding: 3rem 3rem;
   background-color: #000;
+  margin-bottom: 3rem;
 }
 
-figure {
-  padding-top: 3rem;
-}
+
 
 .bottomsection {
   padding: 2rem 2rem;
   background-color: #d3161d;
   margin-bottom: 2rem;
 }
+
 article {
 padding-top: 3rem;
 }
@@ -43,10 +43,20 @@ button:hover {
 button {
   padding: 0.5rem 0.5rem;
 
-
 }
 
-h1:after {
+footer{
+  margin-top: 4rem;
+  padding: 5rem 5rem;
+  background-color: #d3161d;
+  margin-bottom: 2rem;
+}
+
+.spaceRows {
+  margin: 0 1rem;
+}
+
+/* h1:after {
     display: block;
     position: absolute;
     bottom: -5px;
@@ -54,7 +64,8 @@ h1:after {
     width: 120%;
     z-index: 101;
 
-}
+} */
+
 .grace {
   -webkit-box-shadow: -40px -42px 0px -25px rgba(211,22,29,1);
 -moz-box-shadow: -40px -42px 0px -25px rgba(211,22,29,1);
